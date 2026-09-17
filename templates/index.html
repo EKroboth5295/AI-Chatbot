@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calm Journey</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="logo">🧭 Calm Journey</div>
+      <div class="voice-switch">
+        <label for="voiceSelect">Voice:</label>
+        <select id="voiceSelect">
+          <option value="neutral">Neutral Guide</option>
+          <option value="motherly">Motherly</option>
+        </select>
+        <button id="voiceToggle" class="mic-btn" title="Toggle voice output">🔊</button>
+      </div>
+    </header>
+
+    <main class="chat" id="chat">
+      <div class="bubble ai">
+        <div class="bubble-text">
+          Hi, I'm here with you. Wherever you are, wherever you're going — we can take it one step at a time. How are you feeling right now?
+        </div>
+        <div class="bubble-meta">Calm Journey · just now</div>
+      </div>
+    </main>
+
+    <footer class="composer">
+      <input
+        id="input"
+        type="text"
+        placeholder="Tell me what's happening…"
+        autocomplete="off"
+      />
+      <button id="sendBtn">Send</button>
+    </footer>
+  </div>
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

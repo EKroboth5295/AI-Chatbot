@@ -1,0 +1,25 @@
+{
+  "spots": [
+    {
+      "name": "Riverside Park",
+      "type": "park",
+      "vibe": "quiet, with the sound of water and benches under trees",
+      "lat": 40.7820,
+      "lng": -73.9650
+    },
+    {
+      "name": "The Quiet Bean Café",
+      "type": "café",
+      "vibe": "soft jazz, warm lighting, and a corner with a single armchair",
+      "lat": 40.7580,
+      "lng": -73.9855
+    },
+    {
+      "name": "St. Avery Library Garden",
+      "type": "garden",
+      "vibe": "enclosed, with a stone fountain and almost no foot traffic",
+      "lat": 40.7505,
+      "lng": -73.9934
+    }
+  ]
+}
